@@ -1,3 +1,4 @@
-Rails.application.routes.draw doRails.application.routes.draw do
+Rails.application.routes.draw do
+  resources :users
   root 'application#hello'
 end
